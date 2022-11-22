@@ -3,7 +3,7 @@
 print("Bem-vindo ao Gerador de nomes de bandas.")
 
 #2. Pergunte ao usuário a cidade em que ele cresceu.
-street = input("Qual é o nome da cidade em que você cresceu?\n")
+Cidade = input("Qual é o nome da cidade em que você cresceu?\n")
 
 #3. Pergunte ao usuário o nome do pet.
 pet = input("Qual é o nome do teu animal de estimação?\n")
