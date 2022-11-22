@@ -1,4 +1,6 @@
 *Calculadora de dicas*
+
+
 Instruções
 
 Se a conta foi de R$ 150,00, dividida entre 5 pessoas, com 12% de gorjeta.
