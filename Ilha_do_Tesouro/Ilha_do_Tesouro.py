@@ -20,25 +20,25 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************
 ''')
-print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.")
+print("Bem -vindo a Ilha do Tesouro.")
+print("A Nossa missão é encontrar o tesouro.")
 
-#Write your code below this line 👇
+#Escreva seu código abaixo desta linha 👇
 
-choice1 = input('You\'re at a cross road. Where do you want to go? Type "left" or "right" \n').lower()
-if choice1 == "left":
-  choice2 = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
-  if choice2 == "wait":
-    choice3 = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n").lower()
-    if choice3 == "red":
-      print("It's a room full of fire. Game Over.")
-    elif choice3 == "yellow":
-      print("You found the treasure! You Win!")
-    elif choice3 == "blue":
-      print("You enter a room of beasts. Game Over.")
+choice1 = input('Você\'está em uma estrada Cruzada.Onde você quer ir? Digite "esquerda" ou "direita" \n').lower()
+if choice1 == "esquerda":
+  choice2 = input('Você\'veio a um lago. Há uma ilha no meio do lago.Digite "espere" para esperar por um barco.Digite "nadar" para nadar. \n').lower()
+  if choice2 == "espere":
+    choice3 = input("Você chega à ilha ileso.Há uma casa com 3 portas.Um vermelho, um amarelo e outro azul.Qual cor você escolhe? \n").lower()
+    if choice3 == "vermelho":
+      print("É uma sala cheia de fogo.Fim de jogo.")
+    elif choice3 == "amarelo":
+      print("Você encontrou o tesouro!Você ganhou!")
+    elif choice3 == "azul":
+      print("Você entrou em uma sala de animais.Fim de jogo.")
     else:
-      print("You chose a door that doesn't exist. Game Over.")
+      print("Você escolheu uma porta que não existe.Fim de jogo.")
   else:
-    print("You get attacked by an angry trout. Game Over.")
+    print("Você é atacado por uma truta irritada.Fim de jogo.")
 else:
-  print("You fell into a hole. Game Over.")
+  print("Você caiu em um buraco.Fim de jogo.")
