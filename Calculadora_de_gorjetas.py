@@ -10,4 +10,5 @@ valor_total_da_gorjeta = conta*percent_gorjeta
 total_conta = conta + valor_total_da_gorjeta
 conta_por_pessoa= total_conta / pessoa
 valor_final= round(conta_por_pessoa, 2)
+valor_final= "{:.2f}".format(valor_final)
 print(f"cada pessoa deve pagar: R${valor_final}")
